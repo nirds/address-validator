@@ -5,7 +5,6 @@ ruby '2.3.0'
 gemspec
 
 group :test do
-  gem 'guard-rspec'
   gem 'rspec', '~> 2.12.0'
   gem 'webmock', '~> 1.9.0'
   gem 'vcr', '~> 2.4.0'

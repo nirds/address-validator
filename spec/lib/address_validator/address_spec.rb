@@ -40,7 +40,7 @@ describe AddressValidator::Address do
     end
 
     it 'should have a AddressLine' do
-      xml.should =~ /<AddressLine>street1<\/AddressLine>/
+      xml.should =~ /<AddressLine>street1 <\/AddressLine>/
     end
 
     it 'should have a PoliticalDivision2' do
